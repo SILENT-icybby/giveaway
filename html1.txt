@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weź udział w Giveaway!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .cta-button {
+            background-color: #ff6f61;
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background-color: #e65c53;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .giveaway-description {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Weź udział w naszym Giveaway!</h1>
+    <p>Wygraj niesamowite nagrody – zapisz się już teraz!</p>
+</header>
+
+<div class="container">
+    <div class="giveaway-description">
+        <h2>Co możesz wygrać?</h2>
+        <p>Do wygrania fantastyczne nagrody! Wystarczy, że weźmiesz udział w naszym giveaway, a możesz zgarnąć nagrody takie jak karty podarunkowe, produkty elektroniczne i wiele innych.</p>
+    </div>
+
+    <a href="https://link_do_rejestracji.com" class="cta-button">Zarejestruj się teraz!</a>
+
+    <div class="giveaway-description">
+        <h2>Jak wziąć udział?</h2>
+        <p>To proste! Wystarczy zarejestrować się na naszej stronie, a następnie wykonaj kilka prostych kroków, by zwiększyć swoje szanse na wygraną!</p>
+    </div>
+
+    <a href="https://link_do_rejestracji.com" class="cta-button">Dołącz do giveaway!</a>
+</div>
+
+<footer>
+    <p>&copy; 2025 Giveaway Promotion. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
