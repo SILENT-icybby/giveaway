@@ -25,7 +25,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Dodajemy cień dla efektu elegancji */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Cień dla efektu elegancji */
         }
 
         h1 {
@@ -35,13 +35,13 @@
             color: #fff;
             font-weight: 700;
             text-transform: uppercase;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Dodajemy cień do tekstu */
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
         }
 
         p {
             font-size: 1.3em;
             margin-top: 15px;
-            color: rgba(255, 255, 255, 0.8); /* Delikatniejszy odcień bieli */
+            color: rgba(255, 255, 255, 0.8);
         }
 
         .container {
@@ -76,8 +76,8 @@
         }
 
         .cta-button:hover {
-            background-color: #e5533b; /* Mniejszy, ale elegancki odcień */
-            transform: scale(1.05); /* Dodajemy efekt powiększenia przy hover */
+            background-color: #e5533b;
+            transform: scale(1.05);
         }
 
         footer {
@@ -91,11 +91,45 @@
             letter-spacing: 1px;
         }
 
-        /* Efekt hover na linku */
-        .cta-button:focus {
-            outline: none;
+        /* Responsywność */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 1.1em;
+            }
+
+            .cta-button {
+                font-size: 1.1em;
+                padding: 14px 25px;
+            }
+
+            .container {
+                width: 90%;
+                margin: 20px auto;
+            }
+
+            .giveaway-description {
+                padding: 20px;
+            }
         }
 
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .cta-button {
+                font-size: 1em;
+                padding: 12px 20px;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -127,3 +161,4 @@
 
 </body>
 </html>
+
