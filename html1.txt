@@ -10,9 +10,16 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6f61;
             background: linear-gradient(135deg, #ff6f61, #ff8c00); /* Tło gradientowe */
             color: white;
             text-align: center;
+            padding: 50px 0;
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -22,7 +29,7 @@
 
         /* Nagłówek */
         h1 {
-            font-size: 3em;
+            font-size: 2.5em;
             margin: 0;
             padding: 20px;
             color: #fff;
@@ -31,8 +38,26 @@
 
         /* Tekst */
         p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
             font-size: 1.5em;
             margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #ff6f61;
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
 
         /* Przycisk */
@@ -47,29 +72,69 @@
             transition: background-color 0.3s, transform 0.3s;
         }
 
+        .cta-button:hover {
+            background-color: #e65c53;
+        }
+
         /* Efekt hover na przycisku */
         a:hover {
             background-color: #ff8c00;
             color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
             transform: scale(1.1);
+        }
+
+        .giveaway-description {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
 
         /* Mały tekst */
         footer {
+            background-color: #333;
             margin-top: 30px;
             font-size: 1em;
             color: #fff;
             font-weight: bold;
+            padding: 10px;
+            text-align: center;
         }
-
     </style>
 </head>
 <body>
 
-    <h1>Weź udział w Giveaway!</h1>
-    <p>Wygraj niesamowite nagrody - zarejestruj się już teraz!</p>
-    <a href="https://link_do_rejestracji.com" target="_blank">Zarejestruj się teraz!</a>
-    <footer>© 2025 Giveaway</footer>
+<header>
+    <h1>Weź udział w naszym Giveaway!</h1>
+    <p>Wygraj niesamowite nagrody – zapisz się już teraz!</p>
+</header>
+
+<div class="container">
+    <div class="giveaway-description">
+        <h2>Co możesz wygrać?</h2>
+        <p>Do wygrania fantastyczne nagrody! Wystarczy, że weźmiesz udział w naszym giveaway, a możesz zgarnąć nagrody takie jak karty podarunkowe, produkty elektroniczne i wiele innych.</p>
+    </div>
+
+    <a href="https://link_do_rejestracji.com" class="cta-button">Zarejestruj się teraz!</a>
+
+    <div class="giveaway-description">
+        <h2>Jak wziąć udział?</h2>
+        <p>To proste! Wystarczy zarejestrować się na naszej stronie, a następnie wykonaj kilka prostych kroków, by zwiększyć swoje szanse na wygraną!</p>
+    </div>
+
+    <a href="https://link_do_rejestracji.com" class="cta-button">Dołącz do giveaway!</a>
+</div>
+
+<footer>
+    <p>&copy; 2025 Giveaway Promotion. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
+
