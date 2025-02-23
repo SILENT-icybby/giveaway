@@ -3,164 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weź udział w Giveaway!</title>
+    <title>Giveaway - Roczny zapas puszek coli!</title>
     <style>
-        /* Ogólne style strony */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f7f7f7;
-            color: #333;
-            line-height: 1.6;
-        }
-
-      header {
-            background-image: url('giveaway
-/abstract-background-with-waves-simple-elegant-and-modern-wallpaper-banner-template-vector.jpg'); /* białe tło */
-            color: white;
-            text-align: center;
-            padding: 60px 0;
-            height: 100vh;
+            background-color: #f0f0f0;
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Cień dla efektu elegancji */
+            height: 100vh;
         }
 
-        h1 {
-            font-size: 3.5em;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            font-weight: 700;
-            text-transform: uppercase;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-        }
-
-        p {
-            font-size: 1.3em;
-            margin-top: 15px;
-            color: #333;
-        }
-
-        .container {
-            width: 80%;
-            margin: 30px auto;
+        .giveaway-container {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 500px;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
-            font-size: 1.2em;
-            margin-bottom: 50px;
+            overflow: hidden;
         }
 
-        /* Opis nad przyciskami */
+        .giveaway-title {
+            font-size: 2em;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+
         .giveaway-description {
-            background-color: white;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            font-size: 1.2em;
+            color: #555555;
             margin-bottom: 30px;
-            font-size: 1.1em;
-            color: #333; /* Kolor czcionki czarny */
         }
 
         .cta-button {
-            background-color: #ff6347;
+            background-color: #ff6f61;
             color: white;
-            padding: 18px 30px;
             font-size: 1.2em;
+            padding: 15px 30px;
             border: none;
-            border-radius: 5px;
+            border-radius: 50px;
             cursor: pointer;
+            transition: background-color 0.3s ease;
             text-decoration: none;
-            display: inline-block;
-            margin-top: 15px;
-            transition: background-color 0.3s, transform 0.3s;
         }
 
         .cta-button:hover {
-            background-color: #e5533b;
-            transform: scale(1.05);
+            background-color: #e05e54;
         }
 
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 25px;
-            margin-top: 40px;
-            font-size: 1em;
-            font-weight: 700;
-            letter-spacing: 1px;
-        }
-
-        /* Responsywność */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.5em;
-            }
-
-            p {
-                font-size: 1.1em;
-            }
-
-            .cta-button {
-                font-size: 1.1em;
-                padding: 14px 25px;
-            }
-
-            .container {
-                width: 90%;
-                margin: 20px auto;
-            }
-
-            .giveaway-description {
-                padding: 20px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 2em;
-            }
-
-            .cta-button {
-                font-size: 1em;
-                padding: 12px 20px;
-            }
-
-            .container {
-                width: 95%;
-            }
+        .cta-button:active {
+            background-color: #c14e43;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Weź udział w naszym Giveaway!</h1>
-    <p>Wygraj niesamowite nagrody – zapisz się już teraz!</p>
-</header>
-
-<div class="container">
-    <div class="giveaway-description">
-        <h2>Co możesz wygrać?</h2>
-        <p> Wygraj fantastyczne nagrody! Wystarczy, że weźmiesz udział w naszym giveaway, a możesz zgarnąć nagrody takie jak karty podarunkowe, produkty elektroniczne i wiele innych.</p>
+    <div class="giveaway-container">
+        <h1 class="giveaway-title">Wygraj roczny zapas puszek coli!</h1>
+        <p class="giveaway-description">Zarejestruj się teraz, aby mieć szansę na wygraną. Pamiętaj, że to tylko jedno kliknięcie dzieli Cię od niezliczonych chwil z Twoją ulubioną colą!</p>
+        <a href="https://link-do-centrum-affiliacji.com" class="cta-button">Dołącz teraz!</a>
     </div>
-
-    <a href="https://link_do_rejestracji.com" class="cta-button">Zarejestruj się teraz!</a>
-
-    <div class="giveaway-description">
-        <h2>Jak wziąć udział?</h2>
-        <p>To proste! Wystarczy zarejestrować się na naszej stronie, a następnie wykonaj kilka prostych kroków, by zwiększyć swoje szanse na wygraną!</p>
-    </div>
-
-    <a href="https://link_do_rejestracji.com" class="cta-button">Dołącz do giveaway!</a>
-</div>
-
-<footer>
-    <p>&copy; 2025 Giveaway Promotion. Wszystkie prawa zastrzeżone.</p>
-</footer>
 
 </body>
 </html>
