@@ -15,14 +15,21 @@
             align-items: center;
             height: 100vh;
             background-color: #f0f0f0;
-            background-image: url('abstract-background-with-waves-simple-elegant-and-modern-wallpaper-banner-template-vector.jpg'); /* Ścieżka do Twojego zdjęcia */
-            background-size: cover; /* Dopasowuje obrazek, aby wypełnił cały ekran */
-            background-position: center; /* Wyrównuje obrazek na środku */
-            background-repeat: no-repeat; /* Zapobiega powtarzaniu tła */
+            background-image: url('images/background.jpg'); /* Tło całej strony */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
+        /* Kontener z zawartością giveaway */
         .giveaway-container {
-            background-color: rgba(255, 255, 255, 0.8); /* Białe tło z przezroczystością */
+            background-image: 
+                url('abstract-background-with-waves-simple-elegant-and-modern-wallpaper-banner-template-vector.jpg'), /* Pierwsze tło (np. rozmyte tło) */
+                url('imgMono-CocaCola-can.png'); /* Drugie tło - zdjęcie puszki coli */
+            background-size: cover, 150px; /* Pierwsze tło wypełnia kontener, drugie jest mniejsze */
+            background-position: center, center 45%; /* Pierwsze tło na środku, puszka na środku w poziomie i w pionie 45% od góry */
+            background-repeat: no-repeat, no-repeat; /* Nie powtarzaj tła */
+            background-color: rgba(255, 255, 255, 0.8); /* Przezroczyste białe tło z kontenera */
             width: 90%;
             max-width: 500px;
             padding: 40px;
@@ -75,3 +82,4 @@
 
 </body>
 </html>
+
