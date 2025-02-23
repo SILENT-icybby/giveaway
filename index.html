@@ -15,21 +15,35 @@
             align-items: center;
             height: 100vh;
             background-color: #f0f0f0;
-            background-image: url('images/background.jpg'); /* Tło całej strony */
+            background-image: url('abstract-background-with-waves-simple-elegant-and-modern-wallpaper-banner-template-vector.jpg'); /* Tło całej strony */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
 
+        /* Dodatkowe tło puszki coli, tylko dla szarego tła */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 50%; /* Ustawia zdjęcie w połowie wysokości */
+            left: 10%; /* Ustawia zdjęcie blisko lewej krawędzi */
+            transform: translateY(-50%); /* Wyśrodkowanie tła w pionie */
+            width: 150px; /* Szerokość puszki */
+            height: auto;
+            background-image: url('imgMono-CocaCola-can.png');
+            background-size: cover; /* Dopasowuje obrazek do rozmiaru */
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: -1; /* Umieszcza zdjęcie poniżej treści */
+        }
+
         /* Kontener z zawartością giveaway */
         .giveaway-container {
-            background-image: 
-                url('abstract-background-with-waves-simple-elegant-and-modern-wallpaper-banner-template-vector.jpg'), /* Pierwsze tło (np. rozmyte tło) */
-                url('imgMono-CocaCola-can.png'); /* Drugie tło - zdjęcie puszki coli */
-            background-size: cover, 150px; /* Pierwsze tło wypełnia kontener, drugie jest mniejsze */
-            background-position: center, center 45%; /* Pierwsze tło na środku, puszka na środku w poziomie i w pionie 45% od góry */
-            background-repeat: no-repeat, no-repeat; /* Nie powtarzaj tła */
-            background-color: rgba(255, 255, 255, 0.8); /* Przezroczyste białe tło z kontenera */
+            background-color: #ffff; /* Tło dla kontenera */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: rgba(255, 255, 255, 0.8); /* Przezroczyste tło z kontenera */
             width: 90%;
             max-width: 500px;
             padding: 40px;
@@ -82,4 +96,5 @@
 
 </body>
 </html>
+
 
